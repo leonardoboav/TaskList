@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(109, 40, 155);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteinerHeader {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(241, 255, 45);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+    border-radius: 15px;
+}
+.conteinerHeader h2{
+    margin: 0;
+}
+.conteinerHeader p {
+    color: #636566;
+    font-style: italic;
+    margin: 5px 0;
+}
+.conteinerHeader ol {
+    margin: 20px 0;
+}
+.conteinerHeader ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.conteinerHeader ol li:nth-child(even) {
+    background:  rgb(221, 203, 47);
+}
+.conteinerHeader form {
+    display: inline-block;
+}
+
+.conteinerHeader .completed {
+    text-decoration: line-through;
+    color: #636566;
+}
+.addBotao {
+    border: none;
+    color: black
+}
+
+#controlBotoes {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.conteinerHeader #completoBotao {
+    background-color: #3dcf3d;
+    border: none;
+    color: white;
+}
+
+.conteinerHeader #limparBotao {
+    background-color: #ca1d23;
+    border: none;
+    color: white;
+}
+
+.conteinerHeader #salvarBotao {
+    background-color: #33c5d8;
+    border: none;
+    color: white;
+}

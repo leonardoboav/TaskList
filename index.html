@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Conteiner menu-->    
+<div class="conteinerHeader">
+    <h2>Lista - Coisas a se fazer</h2>
+    <p>Clique em <i>"Adicionar"</i> para marcar a tarefa</p>
+    <p>Duplo click em um item para marcá-lo como concluído.</p>
+
+<form none="adicionarBotao">
+<br>
+    <input type="text" id="caixaDeEntrada">
+</form>
+    <button id="addBotao" class="addBotao">Adicionar</button>
+    <br/>
+    <ol id="todo-list">
+    </ol>
+<!--Conteiner botoes de ação-->
+<div id="controlBotoes">
+    <button id="completoBotao" class="cButton">Limpar Concluídos</button>
+    <button id="limparBotao" class="lButton">Limpar Lista</button>
+    <button id="salvarBotao" class="sButton">Salvar Lista</button>
+</div>
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
